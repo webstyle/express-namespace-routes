@@ -1,0 +1,27 @@
+{
+  "name": "express-namespace-routes",
+  "version": "0.0.1",
+  "description": "Express.js Namespaced routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebStyle/express-namespace-routes.git"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "namespace"
+  ],
+  "author": "Farrukh Mamaktkhalilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebStyle/express-namespace-routes/issues"
+  },
+  "homepage": "https://github.com/WebStyle/express-namespace-routes#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
