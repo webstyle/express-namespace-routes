@@ -1,6 +1,6 @@
 {
   "name": "express-namespace-routes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Express.js Namespaced routes",
   "main": "index.js",
   "scripts": {
