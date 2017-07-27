@@ -5,7 +5,9 @@ Express.js namespace for routes
 ```npm install --save express-namespace-routes```
 
 ```javascript
+const express = require('express');
 const routes = require('express-namespace-routes');
+const app = express();
 
 routes.prefix('/user', (user) => {
   user.post('/', (req, res) => res.send(''));
@@ -18,4 +20,6 @@ routes.prefix('/user', (user) => {
     settings.post('/', (req, res) => res.send(''));
   });
 });
+
+app.use(routes);
 ```
